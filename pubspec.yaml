@@ -1,0 +1,27 @@
+name: armafit_frontend
+description: "ArmaFit - Fitness tracking for athletes and coaches."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  provider: ^6.1.0
+  go_router: ^14.0.0
+  shared_preferences: ^2.3.0
+  intl: ^0.19.0
+  fl_chart: ^0.69.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
